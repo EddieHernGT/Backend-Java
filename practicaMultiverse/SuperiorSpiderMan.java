@@ -1,10 +1,10 @@
 public class SuperiorSpiderMan extends Spider implements SuperiorPowers{
     public SuperiorSpiderMan(){
         setTierra(616);
-        setName("Spider-Man");
+        setName("practicaMultiverse.Spider-Man");
         setIdentity("Otto Gunther Octavius");
         setDescription(" Otto Octavius has implanted his mind into Peter's body, determined to " +
-                "prove himself the \"Superior\" Spider-Man by being both a better superhero and " +
+                "prove himself the \"Superior\" practicaMultiverse.Spider-Man by being both a better superhero and " +
                 "person than Parker ever could be. ");
     }
 

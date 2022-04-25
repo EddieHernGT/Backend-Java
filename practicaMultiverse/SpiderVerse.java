@@ -11,18 +11,18 @@ public class SpiderVerse{
             milles.getSpiderDescription(s);
             milles.spiderCamouflage(s);
             milles.venomBlasts(s);
-        }while (d.confirm("Next Spider-friend?", "Next") == 1);
+        }while (d.confirm("Next practicaMultiverse.Spider-friend?", "Next") == 1);
         do {
             superior.costume(s);
             superior.getSpiderDescription(s);
             superior.talons(s);
             superior.waldoes(s);
-        } while (d.confirm("Next Spider-friend?", "Next") == 1);
+        } while (d.confirm("Next practicaMultiverse.Spider-friend?", "Next") == 1);
         do {
             spdr.costume(s);
             spdr.getSpiderDescription(s);
             spdr.geneticBound(s);
-        } while (d.confirm("This is the las Spider-friend, do you want to go?", "Exit") == 1);
+        } while (d.confirm("This is the las practicaMultiverse.Spider-friend, do you want to go?", "Exit") == 1);
         s.setVisible(false);
     }
 

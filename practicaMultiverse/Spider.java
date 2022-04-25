@@ -5,9 +5,9 @@ public class Spider implements SpiderPowers {
     String name,identity,description;
     public  Spider(){
         this.tierra=616;
-        this.name="Spider-man";
+        this.name="practicaMultiverse.Spider-man";
         this.identity="Peter Parker";
-        this.description="This is the Spider-man from the original universe";
+        this.description="This is the practicaMultiverse.Spider-man from the original universe";
     }
 
     @Override

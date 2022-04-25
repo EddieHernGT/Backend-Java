@@ -1,11 +1,11 @@
 public class SpiderManMiles extends Spider implements MilesPowers{
     public SpiderManMiles(){
         setTierra(1610);
-        setName("Spider-Man");
+        setName("practicaMultiverse.Spider-Man");
         setIdentity("Miles Gonzalo Morales");
         setDescription("Miles Morales first appeared in Ultimate Comics: Fallout #4, which was" +
                 " published in August 2011, in which he foils an assault by Kangaroo a short time after " +
-                "Peter Parker's death. He wears a Spider-Man costume similar " +
+                "Peter Parker's death. He wears a practicaMultiverse.Spider-Man costume similar " +
                 "to Parker's, but considers changing it when spectators tell him it is in \"bad taste\".");
     }
 
