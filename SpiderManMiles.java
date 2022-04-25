@@ -14,16 +14,16 @@ public class SpiderManMiles extends Spider implements MilesPowers{
         screen.cls();
         screen.repaint();
         screen.showImage("./milles.jpg");
-        screen.setBounds(0,0,1000,600);
+        screen.setBounds(0,0,520,700);
     }
 
     @Override
     public void venomBlasts(Screen screen) {
-        screen.out("Is able to generate and manipulate a form of bio-electricity that his body produces");
+        screen.out("*Is able to generate and manipulate a form of bio-electricity that his body produces\n");
     }
 
     @Override
     public void spiderCamouflage(Screen screen) {
-        screen.out("Can blend into his surroundings, allowing him to sneak up on his enemies or, in some cases, flee from them.");
+        screen.out("*Can blend into his surroundings, allowing him to sneak up on his enemies or, in some cases, flee from them.\n");
     }
 }

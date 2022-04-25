@@ -13,16 +13,16 @@ public class SuperiorSpiderMan extends Spider implements SuperiorPowers{
         screen.cls();
         screen.repaint();
         screen.showImage("superior.jpg");
-        screen.setBounds(0,0,1000,600);
+        screen.setBounds(0,0,400,600);
     }
 
     @Override
     public void talons(Screen screen) {
-        screen.out("Retractable talons on his hands and feet of the suit for combative purposes.");
+        screen.out("*Retractable talons on his hands and feet of the suit for combative purposes.\n");
     }
 
     @Override
     public void waldoes(Screen screen) {
-        screen.out("Four mechanical spider-arms to the back of the costume to increase his combative capabilities.");
+        screen.out("*Four mechanical spider-arms to the back of the costume to increase his combative capabilities.\n");
     }
 }

@@ -12,11 +12,11 @@ public class SpDr extends Spider implements SpDrPowers{
         screen.cls();
         screen.repaint();
         screen.showImage("./spdr.jpg");
-        screen.setBounds(0,0,1000,600);
+        screen.setBounds(0,0,615,550);
     }
 
     @Override
     public void geneticBound(Screen screen) {
-        screen.out("Shares a genetic bond with a radioactive spider that helps her operate a bionic armor");
+        screen.out("*Shares a genetic bond with a radioactive spider that helps her operate a bionic armor\n");
     }
 }

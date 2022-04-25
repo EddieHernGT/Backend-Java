@@ -15,22 +15,22 @@ public class Spider implements SpiderPowers {
         screen.cls();
         screen.repaint();
         screen.showImage("spider.jpg");
-        screen.setBounds(0,0,1000,600);
+        screen.setBounds(0,0,500,400);
     }
 
     @Override
     public void webShoot(Screen screen) {
-        screen.out("Is able to shoot a web");
+        screen.out("*Is able to shoot a web\n");
     }
 
     @Override
     public void superStrength(Screen screen) {
-        screen.out("Is able to stop a moving truck");
+        screen.out("*Is able to stop a moving truck\n");
     }
 
     @Override
     public void spiderSense(Screen screen) {
-        screen.out("Is able to feel the danger");
+        screen.out("*Is able to feel the danger\n");
     }
 
     public String getName() { return name; }
